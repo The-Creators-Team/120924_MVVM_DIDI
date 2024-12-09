@@ -1,5 +1,6 @@
-package com.example.mvvmapplication.network
+package com.example.mvvmapplication.di
 
+import com.example.mvvmapplication.data.api.ApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

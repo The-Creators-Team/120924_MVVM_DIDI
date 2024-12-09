@@ -1,10 +1,10 @@
-package com.example.mvvmapplication.viewmodel
+package com.example.mvvmapplication.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mvvmapplication.model.DogImage
-import com.example.mvvmapplication.network.ApiService
+import com.example.mvvmapplication.data.model.DogImage
+import com.example.mvvmapplication.data.api.ApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import retrofit2.Response

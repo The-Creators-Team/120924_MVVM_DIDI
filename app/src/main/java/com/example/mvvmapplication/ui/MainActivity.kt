@@ -1,15 +1,14 @@
-package com.example.mvvmapplication
+package com.example.mvvmapplication.ui
 
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mvvmapplication.databinding.ActivityMainBinding
-import com.example.mvvmapplication.adapter.DogImagesAdapter
-import com.example.mvvmapplication.viewmodel.DogViewModel
+import com.example.mvvmapplication.ui.adapter.DogImagesAdapter
+import com.example.mvvmapplication.ui.viewmodel.DogViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

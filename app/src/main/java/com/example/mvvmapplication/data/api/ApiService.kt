@@ -1,6 +1,6 @@
-package com.example.mvvmapplication.network
+package com.example.mvvmapplication.data.api
 
-import com.example.mvvmapplication.model.DogImage
+import com.example.mvvmapplication.data.model.DogImage
 import retrofit2.Response
 import retrofit2.http.GET
 
